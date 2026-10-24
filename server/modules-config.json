@@ -1,0 +1,56 @@
+{
+  "power": {
+    "title": "Power",
+    "description": "Main power input for the controller.",
+    "connectTo": "24V DC industrial power supply (screw terminal, reverse-polarity protected).",
+    "hasConfig": false
+  },
+  "ethernet1": {
+    "title": "Ethernet (1)",
+    "description": "First Ethernet interface.",
+    "connectTo": "RJ45 Ethernet cable to a PC, switch, or local network.",
+    "hasConfig": false
+  },
+  "ethernet2": {
+    "title": "Ethernet (2)",
+    "description": "Second Ethernet interface, e.g. for a redundant link or a separate field network.",
+    "connectTo": "RJ45 Ethernet cable to a PC, switch, or local network.",
+    "hasConfig": false
+  },
+  "usb": {
+    "title": "USB",
+    "description": "USB host port for external storage or peripherals.",
+    "connectTo": "USB flash drive, keyboard, or other USB device.",
+    "hasConfig": false
+  },
+  "audioIn": {
+    "title": "Audio In",
+    "description": "Line-level audio input.",
+    "connectTo": "External microphone or line-level audio source.",
+    "hasConfig": false
+  },
+  "audioOut": {
+    "title": "Audio Out",
+    "description": "Line-level audio output.",
+    "connectTo": "Speaker, amplifier, or line-level audio input.",
+    "hasConfig": false
+  },
+  "sdcard": {
+    "title": "SD Card",
+    "description": "Removable storage for the Linux root filesystem, logs, or firmware images.",
+    "connectTo": "microSD card, class 10 or better recommended.",
+    "hasConfig": false
+  },
+  "lcd": {
+    "title": "LCD Display",
+    "description": "On-board status display.",
+    "connectTo": "Internal — not user-connectable.",
+    "hasConfig": false
+  },
+  "modules": {
+    "title": "Modules (expansion bay)",
+    "description": "Expansion bay. The controller auto-detects which module or field-bus interface is plugged in via its ADC identification channel. When an RS-485 interface is detected, right-click to open its serial configuration.",
+    "connectTo": "Any compatible expansion module (relay module, analog input module, RS-485/RS-232/CAN interface).",
+    "hasConfig": true
+  }
+}
